@@ -20,6 +20,7 @@ conda install -y pytorch torchvision cudatoolkit=10.2 -c pytorch
 conda install -y -c anaconda pyqt
 pip install Pillow
 pip install tensorboard
+pip install imgaug==0.2.6
 pip install scipy==1.3.3 --upgrade
 pip install jupyterlab --upgrade
 pip install scikit-image tqdm wget
